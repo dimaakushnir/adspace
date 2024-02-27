@@ -1199,12 +1199,19 @@ h6 {
 }
 
 .form-info {
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   white-space: nowrap;
   bottom: -2px;
   -webkit-transform: translateY(100%);
       -ms-transform: translateY(100%);
           transform: translateY(100%);
+}
+
+.form-info.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .radio-form__title {
