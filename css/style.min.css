@@ -2083,6 +2083,9 @@ h6 {
   }
 }
 @media (max-width: 479.98px) {
+  .menu-footer__item {
+    flex: 1 1 100%;
+  }
   .menu-footer__item:not(:last-child) {
     margin: 0 60px 0 0;
   }
