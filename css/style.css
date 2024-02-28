@@ -475,9 +475,9 @@ h6 {
 
 .icon-link.active .icon-link__content:last-child {
   top: -100%;
-  -webkit-transform: translateY(5%) rotate(-90deg);
-      -ms-transform: translateY(5%) rotate(-90deg);
-          transform: translateY(5%) rotate(-90deg);
+  -webkit-transform: translateY(5%);
+      -ms-transform: translateY(5%);
+          transform: translateY(5%);
 }
 
 .icon-link__inner {
@@ -1541,19 +1541,30 @@ h6 {
           transform: translateY(0%) rotate(-90deg);
 }
 
-.menu-header__icon-link .icon-link__content {
-  background: url("../img/icons/arrow-link-white.svg") center no-repeat;
-  background-size: 14px 13px;
+.menu-header__icon-link .icon-link__content svg {
+  stroke: #fff;
+  -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .menu-header__icon-link .icon-link__content:last-child {
   background-color: #7B58FA;
-  -webkit-transform: translateY(5%) rotate(-90deg);
-      -ms-transform: translateY(5%) rotate(-90deg);
-          transform: translateY(5%) rotate(-90deg);
+  -webkit-transform: translateY(0) !important;
+      -ms-transform: translateY(0) !important;
+          transform: translateY(0) !important;
+}
+
+.menu-header__icon-link .icon-link__content:last-child svg {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.menu-header__icon-link.active {
+  -webkit-transition: all 0s ease 0.4s;
+  transition: all 0s ease 0.4s;
+  background-color: #7B58FA;
 }
 
 .menu-header-dropdown {
@@ -1643,13 +1654,14 @@ h6 {
   height: 100%;
   background-color: #0F0F0F;
   z-index: 998;
+  padding: 95px 0 24px 0;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
 .mobile-header__inner {
   height: 100%;
-  padding: 95px 0 24px 0;
+  overflow-y: auto;
 }
 
 .mobile-header__container {
@@ -1668,7 +1680,6 @@ h6 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  overflow-y: auto;
 }
 
 .footer {
