@@ -4116,6 +4116,10 @@ h6 {
 }
 
 @media (max-width: 1364px) {
+  .container {
+    padding: 0 16px;
+  }
+
   h1 {
     font-size: 80px;
   }
@@ -4388,6 +4392,10 @@ h6 {
   .header {
     top: 0;
     height: 71px;
+  }
+
+  .header__container {
+    padding: 0 16px;
   }
 
   .header__menu {
