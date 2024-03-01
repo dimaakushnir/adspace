@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240228104710">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240228104710" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/19.5.2/css/intlTelInput.css?_v=20240228104710" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css?_v=20240228104710" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20240302002032">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240302002032" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css?_v=20240302002032" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?_v=20240302002032" />
     <title>Home</title>
 </head>
 
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <header class="header">
+        <header class="header animate__animated  animate__fadeIn">
     <div class="header__main">
         <div class="header__container">
             <div class="header__row">
@@ -376,7 +376,8 @@
 </header>
         <main class="home">
             <section class="home__fullscreen fullscreen">
-                <div class="fullscreen__image ibg">
+                <div class="fullscreen__media-block">
+                    <!-- Місце для iframe -->
                     <picture><source srcset="img/fullscreen/01.webp" type="image/webp"><img src="img/fullscreen/01.jpg" alt="fullscreen-img"></picture>
                 </div>
                 <div class="fullscreen__inner">
@@ -384,15 +385,20 @@
                         <div class="fullscreen__body">
                             <div class="fullscreen__content">
                                 <div class="fullscreen__top">
-                                    <h1 class="fullscreen__title">We help<br> companies grow</h1>
-                                    <div class="fullscreen__subtitle subtitle">
+                                    <h1 class="fullscreen__title animate__animated animate__fadeInUp">
+                                        We help<br> companies grow
+                                    </h1>
+                                    <div class="fullscreen__subtitle subtitle animate__animated animate__fadeInUp"
+                                        style="animation-delay: 0.3s;">
                                         <p>
                                             We are a full-service strategy, design and digital marketing agency that
                                             helps emerging and established brands grow faster.
                                         </p>
                                     </div>
                                 </div>
-                                <a href="" class="fullscreen__btn btn btn_white popup-roas-open">
+                                <a href=""
+                                    class="fullscreen__btn btn btn_white popup-roas-open animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.6s;">
                                     <span class="btn__inner">
                                         <span class="btn__content">
                                             <span class="btn__text">Grow Together</span>
@@ -454,6 +460,11 @@
                                         <img src="img/brands/aurate.svg" alt="aurate">
                                     </div>
                                 </div>
+                                <div class="slider-brands__slide slide-slider-brands swiper-slide">
+                                    <div class="slide-slider-brands__item">
+                                        <img src="img/brands/nodpod.svg" alt="nodpod">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -464,17 +475,19 @@
                     <div class="stories__top top-stories">
                         <div class="top-stories__body">
                             <div class="top-stories__content">
-                                <h2 class="top-stories__title">
+                                <h2 class="top-stories__title wow animate__animated animate__fadeInUp">
                                     We provide exceptional results for every client
                                 </h2>
-                                <div class="top-stories__subtitle subtitle">
+                                <div class="top-stories__subtitle subtitle wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.4s;">
                                     <p>
                                         Dedicated to exceeding expectations, we consistently deliver exceptional results
                                         for each client through expertise and tailored solutions.
                                     </p>
                                 </div>
                             </div>
-                            <a href="" class="top-stories__btn btn btn_white">
+                            <a href="" class="top-stories__btn btn btn_white wow animate__animated animate__fadeInUp"
+                                style="animation-delay: 0.8s;">
                                 <span class="btn__inner">
                                     <span class="btn__content">
                                         <span class="btn__text">Become a client</span>
@@ -486,9 +499,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="stories__slider slider">
+                    <div class="stories__slider slider headline-bottom_block">
                         <div class="slider__top">
-                            <h3 class="slider__title">Success stories</h3>
+                            <h3 class="slider__title wow animate__animated animate__fadeInUp">Success stories</h3>
                             <div class="slider__navigation navigation-slider">
                                 <button
                                     class="navigation-slider__btn navigation-slider__btn_prev stories__btn-prev icon-link">
@@ -522,7 +535,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="slider__body">
+                        <div class="slider__body wow animate__animated animate__fadeInUp">
                             <div class="slider__swiper stories__swiper swiper">
                                 <div class="slider__wrapper swiper-wrapper">
                                     <div class="slider__slide slide-slider swiper-slide">
@@ -765,19 +778,21 @@
                     <div class="ecommerce__row">
                         <div class="ecommerce__content">
                             <div class="ecommerce__top">
-                                <h3 class="ecommerce__title">
+                                <h3 class="ecommerce__title wow animate__animated animate__fadeInUp">
                                     Our growth framework help brands scale methodically
                                 </h3>
-                                <div class="ecommerce__text">
+                                <div class="ecommerce__text wow animate__animated animate__fadeInUp">
                                     <p>
                                         Our team of <span>highly qualified design</span> and <span>marketing
-                                            experts</span> have decades of combined experience in helping brands scale
+                                            experts</span> have decades of combined experience in helping brands
+                                        scale
                                         using innovative, data-driven digital marketing growth strategies.
                                     </p>
                                 </div>
                             </div>
                             <div class="ecommerce__items">
-                                <div class="ecommerce__item item-ecommerce" data-star="element-1">
+                                <div class="ecommerce__item item-ecommerce active wow animate__animated animate__fadeInUp"
+                                    data-star="element-1">
                                     <div class="item-ecommerce__top top-item-ecommerce">
                                         <span class="top-item-ecommerce__number">01</span>
                                         <div class="top-item-ecommerce__title">
@@ -805,7 +820,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="ecommerce__item item-ecommerce" data-star="element-2">
+                                <div class="ecommerce__item item-ecommerce wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.1s;" data-star="element-2">
                                     <div class="item-ecommerce__top top-item-ecommerce">
                                         <span class="top-item-ecommerce__number">02</span>
                                         <div class="top-item-ecommerce__title">
@@ -833,7 +849,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="ecommerce__item item-ecommerce" data-star="element-3">
+                                <div class="ecommerce__item item-ecommerce wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.2s;" data-star="element-3">
                                     <div class="item-ecommerce__top top-item-ecommerce">
                                         <span class="top-item-ecommerce__number">03</span>
                                         <div class="top-item-ecommerce__title">
@@ -861,7 +878,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="ecommerce__item item-ecommerce" data-star="element-4">
+                                <div class="ecommerce__item item-ecommerce wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.3s;" data-star="element-4">
                                     <div class="item-ecommerce__top top-item-ecommerce">
                                         <span class="top-item-ecommerce__number">04</span>
                                         <div class="top-item-ecommerce__title">
@@ -889,7 +907,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="ecommerce__item item-ecommerce" data-star="element-5">
+                                <div class="ecommerce__item item-ecommerce wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 0.4s;" data-star="element-5">
                                     <div class="item-ecommerce__top top-item-ecommerce">
                                         <span class="top-item-ecommerce__number">05</span>
                                         <div class="top-item-ecommerce__title">
@@ -917,19 +936,21 @@
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="ecommerce__circles circles" data-da="ecommerce__content, 1, 1175">
-                            <div class="circles__star">
+                        <div class="ecommerce__circles circles wow animate__animated animate__fadeInUp"
+                            data-da="ecommerce__content, 1, 1175">
+                            <div class="circles__star element-1">
                                 <svg>
                                     <use xlink:href="#star"></use>
                                 </svg>
                             </div>
-                            <div class="circles__text">
+                            <div class="circles__text active">
                                 The 5 Pillars<br> of Ecommerce
                             </div>
                             <div class="circles__numbers">
-                                <div class="circles__number number-circles element-1">
+                                <div class="circles__number number-circles element-1 active">
                                     <span class="number-circles__text">Product-Market Fit</span>
                                     <span class="number-circles__icon">01</span>
                                 </div>
@@ -943,23 +964,72 @@
                                 </div>
                                 <div class="circles__number number-circles element-4">
                                     <span class="number-circles__icon">04</span>
-                                    <span class="number-circles__text">Lifecycle & Retention</span>
+                                    <span class="number-circles__text">Lifecycle<br> & Retention</span>
                                 </div>
                                 <div class="circles__number number-circles element-5">
-                                    <span class="number-circles__text">Reporting & Analytics</span>
+                                    <span class="number-circles__text">Reporting<br> & Analytics</span>
                                     <span class="number-circles__icon">05</span>
                                 </div>
                             </div>
-                            <span class="circles__border circles__border_big"></span>
-                            <span class="circles__border circles__border_medium"></span>
-                            <span class="circles__border circles__border_small"></span>
+                            <span class="circles__border circles__border_big">
+                                <svg width="100%" height="100%">
+                                    <circle cx="50%" cy="50%" r="50%" stroke="#ffffff33" stroke-width="1.6"
+                                        stroke-dasharray="6,6" ; fill="none" />
+                                </svg>
+                            </span>
+                            <span class="circles__border circles__border_medium">
+                                <svg width="100%" height="100%">
+                                    <circle cx="50%" cy="50%" r="50%" stroke="#ffffff33" stroke-width="1.6"
+                                        stroke-dasharray="6,6" ; fill="none" />
+                                </svg>
+                            </span>
+                            <span class="circles__border circles__border_small">
+                                <svg width="100%" height="100%">
+                                    <circle cx="50%" cy="50%" r="50%" stroke="#ffffff33" stroke-width="1.6"
+                                        stroke-dasharray="6,6" ; fill="none" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="home__scroll-block scroll-block bg-white">
-                <div class="scroll-block__container container">
-                    <div class="scroll-block__body">
+            <div class="pin-spacer">
+                <section class="home__scroll-block scroll-block bg-white">
+                    <div class="scroll-block__container container">
+                        <div class="scroll-block__body">
+                            <div class="scroll-block__content">
+                                <div class="scroll-block__content-body">
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_horizontal scroll-block__item_1">
+                                        <picture><source srcset="img/scroll-block/01.webp" type="image/webp"><img src="img/scroll-block/01.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_vertical scroll-block__item_2">
+                                        <picture><source srcset="img/scroll-block/02.webp" type="image/webp"><img src="img/scroll-block/02.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_vertical scroll-block__item_3">
+                                        <picture><source srcset="img/scroll-block/03.webp" type="image/webp"><img src="img/scroll-block/03.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_horizontal scroll-block__item_4">
+                                        <picture><source srcset="img/scroll-block/04.webp" type="image/webp"><img src="img/scroll-block/04.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_horizontal scroll-block__item_5">
+                                        <picture><source srcset="img/scroll-block/05.webp" type="image/webp"><img src="img/scroll-block/05.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_vertical scroll-block__item_6">
+                                        <picture><source srcset="img/scroll-block/06.webp" type="image/webp"><img src="img/scroll-block/06.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                    <a href=""
+                                        class="scroll-block__item scroll-block__item_horizontal scroll-block__item_7">
+                                        <picture><source srcset="img/scroll-block/07.webp" type="image/webp"><img src="img/scroll-block/07.jpg" alt="scroll-block-img"></picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="scroll-block__btn-block">
                             <div class="scroll-block__btn-block-inner">
                                 <a href="" class="scroll-block__btn btn">
@@ -984,43 +1054,14 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="scroll-block__content">
-                            <div class="scroll-block__content-body">
-                                <a href=""
-                                    class="scroll-block__item scroll-block__item_horizontal scroll-block__item_1">
-                                    <picture><source srcset="img/scroll-block/01.webp" type="image/webp"><img src="img/scroll-block/01.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href="" class="scroll-block__item scroll-block__item_vertical scroll-block__item_2">
-                                    <picture><source srcset="img/scroll-block/02.webp" type="image/webp"><img src="img/scroll-block/02.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href="" class="scroll-block__item scroll-block__item_vertical scroll-block__item_3">
-                                    <picture><source srcset="img/scroll-block/03.webp" type="image/webp"><img src="img/scroll-block/03.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href=""
-                                    class="scroll-block__item scroll-block__item_horizontal scroll-block__item_4">
-                                    <picture><source srcset="img/scroll-block/04.webp" type="image/webp"><img src="img/scroll-block/04.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href=""
-                                    class="scroll-block__item scroll-block__item_horizontal scroll-block__item_5">
-                                    <picture><source srcset="img/scroll-block/05.webp" type="image/webp"><img src="img/scroll-block/05.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href="" class="scroll-block__item scroll-block__item_vertical scroll-block__item_6">
-                                    <picture><source srcset="img/scroll-block/06.webp" type="image/webp"><img src="img/scroll-block/06.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                                <a href=""
-                                    class="scroll-block__item scroll-block__item_horizontal scroll-block__item_7">
-                                    <picture><source srcset="img/scroll-block/07.webp" type="image/webp"><img src="img/scroll-block/07.jpg" alt="scroll-block-img"></picture>
-                                </a>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
             <section class="home__services services-block">
                 <div class="services-block__container container">
                     <div class="services-block__slider slider">
                         <div class="slider__top">
-                            <h3 class="slider__title">Services</h3>
+                            <h2 class="slider__title wow animate__animated animate__fadeInUp">Services</h2>
                             <div class="slider__navigation navigation-slider">
                                 <button
                                     class="navigation-slider__btn navigation-slider__btn_prev services-block__btn-prev icon-link">
@@ -1054,7 +1095,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="slider__body">
+                        <div class="slider__body wow animate__animated animate__fadeInUp">
                             <div class="slider__swiper services-block__swiper swiper">
                                 <div class="slider__wrapper swiper-wrapper">
                                     <div class="slider__slide slide-slider swiper-slide">
@@ -1261,6 +1302,40 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="slider__slide slide-slider swiper-slide">
+                                        <a href="" class="slide-slider__item item-card">
+                                            <div class="item-card__image-block">
+                                                <div class="item-card__image ">
+                                                    <img src="img/services/anim-icons/07.gif" alt="services-block-img">
+                                                </div>
+                                            </div>
+                                            <div class="item-card__content">
+                                                <h6 class="item-card__title">Marketing Strategy</h6>
+                                                <div class="item-card__subtitle">
+                                                    <p>
+                                                        Comprehensive digital marketing expertise with growth-oriented,
+                                                        data-driven solutions
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="item-card__bottom">
+                                                <span class="item-card__link icon-link">
+                                                    <span class="icon-link__inner">
+                                                        <span class="icon-link__content">
+                                                            <svg>
+                                                                <use xlink:href="#arrow-link"></use>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="icon-link__content">
+                                                            <svg>
+                                                                <use xlink:href="#arrow-link"></use>
+                                                            </svg>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1271,9 +1346,9 @@
                 <div class="feedback__container container">
                     <div class="feedback__slider slider">
                         <div class="slider__top feedback-slider-top">
-                            <h3 class="slider__title">Clients feedback</h3>
+                            <h2 class="slider__title wow animate__animated animate__fadeInUp">Clients feedback</h2>
                         </div>
-                        <div class="slider__body">
+                        <div class="slider__body wow animate__animated animate__fadeInUp">
                             <div class="slider__swiper feedback__swiper swiper">
                                 <div class="slider__wrapper swiper-wrapper">
                                     <div class="slider__slide slide-slider swiper-slide">
@@ -1303,13 +1378,17 @@
                                                 <div class="item-card__bottom">
                                                     <div class="item-card__author author-item-card">
                                                         <div class="author-item-card__icon">
-                                                            LM
+                                                            <span>LM</span>
                                                         </div>
                                                         <div class="author-item-card__info">
-                                                            <div class="author-item-card__name">Lionel Marciano
+                                                            <div class="author-item-card__name">
+                                                                <span>Lionel Marciano</span>
                                                             </div>
-                                                            <div class="author-item-card__position">Founder/CEO at
-                                                                RT Agency</div>
+                                                            <div class="author-item-card__position">
+                                                                <span>
+                                                                    Founder/CEO at RT Agency
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1343,13 +1422,17 @@
                                                 <div class="item-card__bottom">
                                                     <div class="item-card__author author-item-card">
                                                         <div class="author-item-card__icon">
-                                                            LM
+                                                            <span>LM</span>
                                                         </div>
                                                         <div class="author-item-card__info">
-                                                            <div class="author-item-card__name">Lionel Marciano
+                                                            <div class="author-item-card__name">
+                                                                <span>Lionel Marciano</span>
                                                             </div>
-                                                            <div class="author-item-card__position">Founder/CEO at
-                                                                RT Agency</div>
+                                                            <div class="author-item-card__position">
+                                                                <span>
+                                                                    Founder/CEO at RT Agency
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1383,13 +1466,17 @@
                                                 <div class="item-card__bottom">
                                                     <div class="item-card__author author-item-card">
                                                         <div class="author-item-card__icon">
-                                                            LM
+                                                            <span>LM</span>
                                                         </div>
                                                         <div class="author-item-card__info">
-                                                            <div class="author-item-card__name">Lionel Marciano
+                                                            <div class="author-item-card__name">
+                                                                <span>Lionel Marciano</span>
                                                             </div>
-                                                            <div class="author-item-card__position">Founder/CEO at
-                                                                RT Agency</div>
+                                                            <div class="author-item-card__position">
+                                                                <span>
+                                                                    Founder/CEO at RT Agency
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1438,7 +1525,7 @@
                 <div class="news-block__container container">
                     <div class="news-block__slider slider">
                         <div class="slider__top">
-                            <h3 class="slider__title">News<br> & updates</h3>
+                            <h2 class="slider__title wow animate__animated animate__fadeInUp">News<br> & updates</h2>
                             <div class="slider__navigation navigation-slider">
                                 <button
                                     class="navigation-slider__btn navigation-slider__btn_prev news-block__btn-prev icon-link">
@@ -1472,7 +1559,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="slider__body">
+                        <div class="slider__body wow animate__animated animate__fadeInUp">
                             <div class="slider__swiper news-block__swiper swiper">
                                 <div class="slider__wrapper swiper-wrapper">
                                     <div class="slider__slide slide-slider swiper-slide">
@@ -1672,8 +1759,8 @@
             <section class="home__contact contact-block">
                 <div class="contact-block__container container">
                     <div class="contact-block__body">
-                        <h2 class="contact-block__title">Contact</h2>
-                        <div class="contact-block__content">
+                        <h2 class="contact-block__title wow animate__animated animate__fadeInUp">Contact</h2>
+                        <div class="contact-block__content wow animate__animated animate__fadeInUp">
                             <form action="#" class="contact-block__form form-contact-block">
                                 <div class="form-contact-block__row">
                                     <div class="form-contact-block__column">
@@ -1721,7 +1808,7 @@
                                     <div class="form-contact-block__column">
                                         <div class="form-contact-block__item form-item">
                                             <input autocomplete='off' type='email' name='form[]'
-                                                class='form-contact-block__input form-input email'>
+                                                class='form-contact-block__input form-input email required'>
                                             <label class="form-contact-block__label form-label">Email</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
                                                 <span class="icon-link__inner">
@@ -1765,7 +1852,7 @@
                                     </div>
                                     <div class="form-contact-block__column">
                                         <div class="form-contact-block__item form-item">
-                                            <input required autocomplete='off' type='text' name='form[]'
+                                            <input autocomplete='off' type='text' name='form[]'
                                                 class='form-contact-block__input form-input required'>
                                             <label class="form-contact-block__label form-label">Company name*</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
@@ -1789,7 +1876,7 @@
                                     </div>
                                     <div class="form-contact-block__column">
                                         <div class="form-contact-block__item form-item">
-                                            <input required autocomplete='off' type='url' name='form[]'
+                                            <input autocomplete='off' type='text' name='form[]'
                                                 class='form-contact-block__input form-input required'>
                                             <label class="form-contact-block__label form-label">Link to the company's
                                                 website*</label>
@@ -1817,26 +1904,26 @@
                                     <div class="radio-form__title form-title">Choose your marketing budget:</div>
                                     <div class="radio-form__items">
                                         <div class="radio-form__item">
-                                            <input id="formBudget1" checked autocomplete='off' type='radio'
-                                                value="$5-25k" name='form[]' class='radio-form__input'>
+                                            <input id="formBudget1" autocomplete='off' type='radio' value="$5-25k"
+                                                name='form[]1' class='radio-form__input'>
                                             <label for="formBudget1"
                                                 class="radio-form__label"><span>$0-5k</span></label>
                                         </div>
                                         <div class="radio-form__item">
                                             <input id="formBudget2" autocomplete='off' type='radio' value="$5-25k"
-                                                name='form[]' class='radio-form__input'>
+                                                name='form[]1' class='radio-form__input'>
                                             <label for="formBudget2"
                                                 class="radio-form__label"><span>$5-25k</span></label>
                                         </div>
                                         <div class="radio-form__item">
                                             <input id="formBudget3" autocomplete='off' type='radio' value="$25-50k"
-                                                name='form[]' class='radio-form__input'>
+                                                name='form[]1' class='radio-form__input'>
                                             <label for="formBudget3"
                                                 class="radio-form__label"><span>$25-50k</span></label>
                                         </div>
                                         <div class="radio-form__item">
                                             <input id="formBudget4" autocomplete='off' type='radio' value="$50k+"
-                                                name='form[]' class='radio-form__input'>
+                                                name='form[]1' class='radio-form__input'>
                                             <label for="formBudget4"
                                                 class="radio-form__label"><span>$50k+</span></label>
                                         </div>
@@ -1846,8 +1933,8 @@
                                     <div class="checbox-form__title form-title">Choose the services you need:</div>
                                     <div class="checbox-form__items">
                                         <div class="checbox-form__item">
-                                            <input id="formServicesPerfomance" checked type='checkbox' name='form[]'
-                                                class='checbox-form__input'>
+                                            <input id="formServicesPerfomance" type='radio' value="Perfomance Marketing"
+                                                name='form[]2' class='checbox-form__input'>
                                             <label for="formServicesPerfomance" class="checbox-form__label">
                                                 <span>
                                                     Perfomance Marketing
@@ -1855,8 +1942,8 @@
                                             </label>
                                         </div>
                                         <div class="checbox-form__item">
-                                            <input id="formServicesEmail" type='checkbox' name='form[]'
-                                                class='checbox-form__input'>
+                                            <input id="formServicesEmail" type='radio' value="Email Marketing"
+                                                name='form[]2' class='checbox-form__input'>
                                             <label for="formServicesEmail" class="checbox-form__label">
                                                 <span>
                                                     Email Marketing
@@ -1864,8 +1951,8 @@
                                             </label>
                                         </div>
                                         <div class="checbox-form__item">
-                                            <input id="formServicesDesign" type='checkbox' name='form[]'
-                                                class='checbox-form__input'>
+                                            <input id="formServicesDesign" type='radio' value="Web Design & Development"
+                                                name='form[]2' class='checbox-form__input'>
                                             <label for="formServicesDesign" class="checbox-form__label">
                                                 <span>
                                                     Web Design & Development
@@ -1873,7 +1960,7 @@
                                             </label>
                                         </div>
                                         <div class="checbox-form__item">
-                                            <input id="formServicesOther" type='checkbox' name='form[]'
+                                            <input id="formServicesOther" type='radio' value="Other" name='form[]2'
                                                 class='checbox-form__input'>
                                             <label for="formServicesOther" class="checbox-form__label">
                                                 <span>
@@ -1893,11 +1980,18 @@
                                         </span>
                                     </span>
                                 </button>
-                                <div class="form-contact-block__text form-text">
-                                    <p>
-                                        Тhere were some errors in your submission.<br>
-                                        Please try filling in the form again.
-                                    </p>
+                                <div class="form-contact-block__text-block">
+                                    <div class="form-contact-block__text text-errow form-text">
+                                        <p>
+                                            Тhere were some errors in your submission.<br>
+                                            Please try filling in the form again.
+                                        </p>
+                                    </div>
+                                    <div class="form-contact-block__text text-sent form-text">
+                                        <p>
+                                            Message successfully sent!
+                                        </p>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -1908,7 +2002,7 @@
         <footer class="footer bg-black">
     <div class="footer__container container">
         <div class="footer__row">
-            <div class="footer__column footer__column_logo">
+            <div class="footer__column footer__column_logo wow animate__animated animate__fadeInUp">
                 <a href="" class="footer__logo">
                     <img src="img/logo.svg" alt="logo">
                 </a>
@@ -1990,7 +2084,8 @@
             <div class="footer__column footer__column_menu">
                 <nav class="footer__menu menu-footer">
                     <ul class="menu-footer__list">
-                        <li class="menu-footer__item">
+                        <li class="menu-footer__item wow animate__animated animate__fadeInUp"
+                            style="animation-delay: 0.2s;">
                             <h6 class="menu-footer__title">Company</h6>
                             <a href="" class="menu-footer__link link">
                                 <span class="link__inner">
@@ -2043,127 +2138,138 @@
                                 </span>
                             </a>
                         </li>
-                        <li class="menu-footer__item">
+                        <li class="menu-footer__item wow animate__animated animate__fadeInUp"
+                            style="animation-delay: 0.4s;">
                             <h6 class="menu-footer__title">Services</h6>
                             <nav class="menu-footer-dropdown">
                                 <ul class="menu-footer-dropdown__list">
                                     <li class="menu-footer-dropdown__item">
                                         <span class="menu-footer-dropdown__title">Paid Advertising</span>
                                         <div class="menu-footer-dropdown__links">
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Facebook Ads</span>
+                                            <div class="menu-footer-dropdown__links-body">
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Facebook Ads</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Facebook Ads</span>
+                                                        </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Facebook Ads</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Google Ads</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Google Ads</span>
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Google Ads</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">TikTok Ads</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">TikTok Ads</span>
+                                                        </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Google Ads</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">YouTube Ads</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">YouTube Ads</span>
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">TikTok Ads</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Pinterest Ads</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Pinterest Ads</span>
+                                                        </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">TikTok Ads</span>
-                                                    </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">YouTube Ads</span>
-                                                    </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">YouTube Ads</span>
-                                                    </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Pinterest Ads</span>
-                                                    </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Pinterest Ads</span>
-                                                    </span>
-                                                </span>
-                                            </a>
+                                                </a>
+                                            </div>
                                         </div>
                                     </li>
                                     <li class="menu-footer-dropdown__item">
                                         <span class="menu-footer-dropdown__title">Content Creative</span>
                                         <div class="menu-footer-dropdown__links">
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Creative & Copy</span>
+                                            <div class="menu-footer-dropdown__links-body">
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Creative & Copy</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Creative & Copy</span>
+                                                        </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Creative & Copy</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Influencer
+                                                                Marketing</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Influencer
+                                                                Marketing</span>
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Influencer Marketing</span>
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Email Marketing</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Email Marketing</span>
+                                                        </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Influencer Marketing</span>
-                                                    </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Email Marketing</span>
-                                                    </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Email Marketing</span>
-                                                    </span>
-                                                </span>
-                                            </a>
+                                                </a>
+                                            </div>
                                         </div>
                                     </li>
                                     <li class="menu-footer-dropdown__item">
                                         <span class="menu-footer-dropdown__title">Conversion</span>
                                         <div class="menu-footer-dropdown__links">
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">
-                                                            Web Design & Development
+                                            <div class="menu-footer-dropdown__links-body">
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">
+                                                                Web Design & Development
+                                                            </span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">
+                                                                Web Design & Development
+                                                            </span>
                                                         </span>
                                                     </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">
-                                                            Web Design & Development
+                                                </a>
+                                                <a href="" class="menu-footer-dropdown__link link-dropdown">
+                                                    <span class="link-dropdown__inner">
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">Analytics &
+                                                                Reporting</span>
+                                                        </span>
+                                                        <span class="link-dropdown__content">
+                                                            <span class="link-dropdown__text">IAnalytics &
+                                                                Reporting</span>
                                                         </span>
                                                     </span>
-                                                </span>
-                                            </a>
-                                            <a href="" class="menu-footer-dropdown__link link-dropdown">
-                                                <span class="link-dropdown__inner">
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">Analytics & Reporting</span>
-                                                    </span>
-                                                    <span class="link-dropdown__content">
-                                                        <span class="link-dropdown__text">IAnalytics & Reporting</span>
-                                                    </span>
-                                                </span>
-                                            </a>
+                                                </a>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -2172,14 +2278,32 @@
                     </ul>
                 </nav>
             </div>
-            <div class="footer__column footer__column_subscribe">
+            <div class="footer__column footer__column_subscribe wow animate__animated animate__fadeInUp"
+                style="animation-delay: 0.8s;">
                 <div class="footer__subscribe subscribe">
                     <h6 class="subscribe__title">Weekly tips and updates</h6>
                     <form action="#" class="subscribe__form form-subscribe">
                         <div class="form-subscribe__item form-item">
                             <input autocomplete='off' type='email' name='form[]'
-                                class='form-subscribe__input form-input'>
+                                class='form-subscribe__input form-input email'>
                             <label class="form-subscribe__label form-label">Your Email</label>
+                            <span class="form-contact-block__icon form-icon icon-link">
+                                <span class="icon-link__inner">
+                                    <span class="icon-link__content">
+                                        <svg>
+                                            <use xlink:href="#check"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="icon-link__content">
+                                        <svg>
+                                            <use xlink:href="#close"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="form-contact-block__info form-info">
+                                Please enter a valid email address.
+                            </span>
                             <button type='submit' class='form-subscribe__btn btn_white btn'>
                                 <span class="btn__inner">
                                     <span class="btn__content">
@@ -2213,10 +2337,13 @@
     </div>
 </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js?_v=20240228104710"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20240228104710"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240228104710"></script>
-    <script src="js/app.min.js?_v=20240228104710"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js?_v=20240302002032"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20240302002032"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240302002032"></script>
+    <script src="https://unpkg.com/scrollreveal?_v=20240302002032"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js?_v=20240302002032"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js?_v=20240302002032"></script>
+    <script src="js/app.min.js?_v=20240302002032"></script>
 </body>
 
 </html>
