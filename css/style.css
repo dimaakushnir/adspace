@@ -129,6 +129,11 @@ html {
   height: auto;
 }
 
+html.lock {
+  height: 0;
+  overflow: hidden;
+}
+
 html,
 body {
   scrollbar-width: none;
