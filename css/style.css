@@ -2642,6 +2642,8 @@ h6 {
   width: 100%;
   position: relative;
   padding: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .feedback__slider .quote-item-card {
@@ -4889,6 +4891,18 @@ h6 {
         -ms-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 850px) {
+  .feedback__slider .slider__slide.swiper-slide-prev .item-card__content {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .feedback__slider .slider__slide.swiper-slide-next .item-card__content {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
