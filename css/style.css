@@ -1737,7 +1737,7 @@ h6 {
 }
 @keyframes fadeInUpTextContent {
   0% {
-    transform: translate3d(0, 120%, 0);
+    transform: translate3d(0, 125%, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
