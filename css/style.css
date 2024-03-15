@@ -3677,8 +3677,11 @@ h6 {
     margin: 0 0 32px 0;
   }
 }
+.article-main-news__item .item-article__btn {
+  background-color: #FFFFFF !important;
+}
 .article-main-news__item .item-article__btn svg {
-  stroke: #1C1D1F;
+  stroke: #1C1D1F !important;
 }
 .article-main-news__item .bottom-item-article {
   color: #97999F;
