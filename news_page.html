@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>News</title>
+    <title>News Page</title>
 </head>
 
 <body>
@@ -127,8 +127,8 @@
         </g>
     </symbol>
 </svg>
-    <div class="wrapper wrapper_black black">
-        <header class="header black-bg animate__animated animate__fadeIn">
+    <div class="wrapper wrapper_white black">
+        <header class="header white-bg animate__animated animate__fadeIn">
             <div class="header__main">
                 <div class="header__container">
                     <div class="header__row">
@@ -375,217 +375,934 @@
                 </div>
             </div>
         </header>
-        <main class="news">
-            <section class="news__main main-news block" data-bg="black-bg">
-                <div class="main-news__body">
-                    <div class="main-news__top top-main-news">
-                        <div class="top-main-news__container container">
-                            <div class="top-main-news__body">
-                                <h1 class="main-news__title">
+        <main class="news-page">
+            <div class="navigation-mobile">
+                <a href="" class="navigation-mobile__btn">
+                    <div class="navigation-mobile__container container">
+                        <div class="navigation-mobile__row">
+                            <div class="navigation-mobile__content">
+                                <ul class="navigation-mobile__list">
+                                    <li class="navigation-mobile__list-item active" data-scroll="scroll-1">
+                                        Introduction
+                                    </li>
+                                    <li class="navigation-mobile__list-item" data-scroll="scroll-2">
+                                        Understanding Marketing Performance Measurement
+                                    </li>
+                                    <li class="navigation-mobile__list-item" data-scroll="scroll-3">
+                                        Benefits of Measuring Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__list-item" data-scroll="scroll-4">
+                                        How to Measure Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__list-item" data-scroll="scroll-5">
+                                        How to Evaluate Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__list-item" data-scroll="scroll-6">
+                                        Selecting the Right Metrics for Different Marketing Goals and Strategies
+                                    </li>
+                                </ul>
+                                <ul class="navigation-mobile__next-list">
+                                    <li class="navigation-mobile__next-list-item active" data-scroll="scroll-1">
+                                        Understanding Marketing Performance Measurement
+                                    </li>
+                                    <li class="navigation-mobile__next-list-item" data-scroll="scroll-2">
+                                        Benefits of Measuring Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__next-list-item" data-scroll="scroll-3">
+                                        How to Measure Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__next-list-item" data-scroll="scroll-4">
+                                        How to Evaluate Marketing Performance
+                                    </li>
+                                    <li class="navigation-mobile__next-list-item" data-scroll="scroll-5">
+                                        Selecting the Right Metrics for Different Marketing Goals and Strategies
+                                    </li>
+                                    <li class="navigation-mobile__next-list-item" data-scroll="scroll-6">
+                                        Conclusion
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="navigation-mobile__icon icon-link">
+                                <span class="icon-link__inner">
+                                    <span class="icon-link__content">
+                                        <svg>
+                                            <use xlink:href="#arrow-link"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="icon-link__content">
+                                        <svg>
+                                            <use xlink:href="#arrow-link"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <section class="news-page__main main-news-page block" data-bg="white-bg">
+                <div class="main-news-page__body">
+                    <div class="main-news-page__top top-main-news-page">
+                        <div class="top-main-news-page__container container">
+                            <div class="top-main-news-page__body">
+                                <div class="top-main-news-page__label subtitle">
+                                    <span class="text-inner wow animate__animated"
+                                        style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                        <span class="text-content wow animate__animated"
+                                            style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                            Digital Advertising
+                                        </span>
+                                    </span>
+                                </div>
+                                <h1 class="top-main-news-page__title">
                                     <span class="text-inner wow animate__animated"
                                         style="animation-delay: 0.5s; animation-name: fadeInUpTextInner;">
                                         <span class="text-content wow animate__animated"
                                             style="animation-delay: 0.5s; animation-name: fadeInUpTextContent;">
-                                            News
+                                            Mastering marketing
+                                        </span>
+                                    </span>
+                                    <span class="text-inner wow animate__animated"
+                                        style="animation-delay: 1s; animation-name: fadeInUpTextInner;">
+                                        <span class="text-content wow animate__animated"
+                                            style="animation-delay: 1s; animation-name: fadeInUpTextContent;">
+                                            performance measurement:
+                                        </span>
+                                    </span>
+                                    <span class="text-inner wow animate__animated"
+                                        style="animation-delay: 1.5s; animation-name: fadeInUpTextInner;">
+                                        <span class="text-content wow animate__animated"
+                                            style="animation-delay: 1.5s; animation-name: fadeInUpTextContent;">
+                                            key strategies for success
                                         </span>
                                     </span>
                                 </h1>
-                                <div class="main-news__filter-menu filter-menu wow animate__animated"
-                                    style="animation-delay: 1s; animation-name: fadeInUpBlock;">
-                                    <div class="filter-menu__swiper swiper">
-                                        <div class="filter-menu__wrapper swiper-wrapper">
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn active" data-filter="all">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    View all
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    View all
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Digital Advertising">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Digital Advertising
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Digital Advertising
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Marketing Strategy">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Marketing Strategy
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Marketing Strategy
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Content & Creative">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Content & Creative
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Content & Creative
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Search Engine Optimization">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Search Engine Optimization
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Search Engine Optimization
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Influencer Marketing">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Influencer Marketing
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Influencer Marketing
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="filter-menu__slide slide-filter-menu swiper-slide">
-                                                <div class="slide-filter-menu__item item-filter-menu">
-                                                    <button class="item-filter-menu__btn"
-                                                        data-filter="Web Design & Development">
-                                                        <span class="item-filter-menu__inner">
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Web Design & Development
-                                                                </span>
-                                                            </span>
-                                                            <span class="item-filter-menu__content">
-                                                                <span class="item-filter-menu__text">
-                                                                    Web Design & Development
-                                                                </span>
-                                                            </span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="top-main-news-page__info wow animate__animated"
+                                    style="animation-delay: 1.8s; animation-name: fadeInUpBlock;">
+                                    <div class="top-main-news-page__hour text">
+                                        <span>
+                                            <svg>
+                                                <use xlink:href="#clock"></use>
+                                            </svg>
+                                        </span>
+                                        8 min reading
                                     </div>
+                                    <div class="top-main-news-page__date text">06 Dec. 2023</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="main-news__article article-main-news wow animate__animated"
-                        style="animation-delay: 1.5s; animation-name: fadeInUpBlock;">
-                        <div class="article-main-news__item item-article">
-                            <div class="item-article__image-block">
-                                <div class="item-article__image ibg">
-                                    <img src="img/news/article-img.jpg" alt="article-img">
+                    <div class="main-news-page__image-block wow animate__animated"
+                        style="animation-delay: 2s; animation-name: fadeInUpBlock;">
+                        <div class="main-news-page__image ibg">
+                            <img src="img/news-page/main-img.jpg" alt="main-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news-page__about about-news-page block" data-bg="white-bg">
+                <div class="about-news-page__container container">
+                    <div class="about-news-page__text-block text-block">
+                        <div class="text-block__row">
+                            <div class="text-block__column">
+                                <ul class="text-block__links">
+                                    <li class="text-block__links-item" data-scroll="scroll-1">
+                                        <a href="" class="text-block__link">
+                                            Introduction
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-2">
+                                        <a href="" class="text-block__link">
+                                            Understanding Marketing Performance Measurement
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-3">
+                                        <a href="" class="text-block__link">
+                                            Benefits of Measuring Marketing Performance
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-4">
+                                        <a href="" class="text-block__link">
+                                            How to Measure Marketing Performance
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-5">
+                                        <a href="" class="text-block__link">
+                                            How to Evaluate Marketing Performance
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-6">
+                                        <a href="" class="text-block__link">
+                                            Selecting the Right Metrics for Different Marketing Goals and Strategies
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                    <li class="text-block__links-item" data-scroll="scroll-7">
+                                        <a href="" class="text-block__link">
+                                            Conclusion
+                                        </a>
+                                        <span class="progress-bar-bg">
+                                            <span class="progress-bar-line"></span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="text-block__share share" data-da="text-block__item_bottom, 0, 992">
+                                    <div class="share__text">Share:</div>
+                                    <div class="share__icons">
+                                        <a href="" class="share__icon icon-link">
+                                            <span class="icon-link__inner">
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#x"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#x"></use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="share__icon icon-link">
+                                            <span class="icon-link__inner">
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#facebook"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#facebook"></use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="share__icon icon-link">
+                                            <span class="icon-link__inner">
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#pinterest"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="icon-link__content">
+                                                    <svg>
+                                                        <use xlink:href="#pinterest"></use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="item-article__body">
-                                <div class="item-article__content">
-                                    <div class="item-article__category text">
-                                        Digital Advertising
-                                    </div>
-                                    <h3 class="item-article__title">
-                                        Decoding success: understanding Facebook ad attribution settings
-                                    </h3>
-                                    <div class="item-article__text text">
-                                        <p>
-                                            In this insightful article, we delve into the nuances of the attribution
-                                            setting
-                                            in Facebook ads, a crucial aspect for any marketer looking to accurately
-                                            track
-                                            and assess the performance of their campaigns.
-                                        </p>
-                                    </div>
-                                    <a href="" class="item-article__btn btn btn_arrow btn_white">
-                                        <span class="btn__inner">
-                                            <span class="btn__content">
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
+                            <div class="text-block__column scrolling-block">
+                                <div class="text-block__item scrolling-block">
+                                    <div class="text-block__item text-block__item-scroll text-block__item_1"
+                                        data-scroll="scroll-1">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    Introduction
+                                                </span>
                                             </span>
-                                            <span class="btn__content">
-                                                <span class="btn__text">Read more</span>
-                                            </span>
-                                            <span class="btn__content">
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="item-article__bottom bottom-item-article">
-                                    <div class="bottom-item-article__time time-bottom-item-article">
-                                        <div class="time-bottom-item-article__icon">
-                                            <svg>
-                                                <use xlink:href="#clock"></use>
-                                            </svg>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Understanding and optimizing marketing performance is essential for
+                                                    sustained brand success. Effective marketing performance measurement
+                                                    provides crucial insights into the effectiveness of your strategies.
+                                                    It
+                                                    also serves as the compass guiding your brand towards its
+                                                    objectives.
+                                                    In this comprehensive guide, we delve into the significance of
+                                                    marketing
+                                                    performance measurement, explore key strategies, and highlight
+                                                    ecommerce
+                                                    metrics. From defining its importance to selecting the right
+                                                    metrics,
+                                                    this article is your roadmap to unlocking the full potential of your
+                                                    marketing efforts.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="time-bottom-item-article__value text">5 min</div>
                                     </div>
-                                    <div class="bottom-item-article__date date-bottom-item-article text">
-                                        06 Dec. 2023
+                                    <div class="text-block__item text-block__item-scroll text-block__item_2"
+                                        data-scroll="scroll-2">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    Understanding Marketing
+                                                </span>
+                                            </span>
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0.3s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0.3s; animation-name: fadeInUpTextContent;">
+                                                    Performance Measurement
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    At its core, <a href="">marketing performance
+                                                        measurement</a> refers to
+                                                    the
+                                                    systematic
+                                                    process of evaluating and quantifying the impact and efficacy of
+                                                    various
+                                                    marketing strategies. For ecommerce brands, the definition extends
+                                                    beyond
+                                                    traditional metrics. It involves deciphering the intricate web of
+                                                    data
+                                                    generated across online platforms to glean insights.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__image-block wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <div class="text-block__image ibg">
+                                                    <img src="img/news-page/about/01.jpg" alt="news-page-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    By delving into the intricacies of marketing performance
+                                                    measurement,
+                                                    ecommerce brands gain the ability to dissect the success and
+                                                    shortcomings of each initiative. It becomes a strategic ally in
+                                                    optimizing marketing efforts, ensuring every digital move aligns
+                                                    with
+                                                    overarching business objectives.<br>
+                                                    In the following sections, we will unravel the methodologies and
+                                                    strategies that empower ecommerce brands to measure their marketing
+                                                    performance effectively.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-block__item text-block__item-scroll text-block__item_3"
+                                        data-scroll="scroll-3">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    Benefits of Measuring
+                                                </span>
+                                            </span>
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0.3s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0.3s; animation-name: fadeInUpTextContent;">
+                                                    Marketing Performance
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    The benefits of diligently measuring marketing performance extend
+                                                    beyond
+                                                    statistical analysis. This information forms the bedrock of
+                                                    strategic
+                                                    decision-making and pivotal insights that drive a brand’s digital
+                                                    trajectory. In ecommerce, measuring marketing performance is vital
+                                                    for:
+                                                </p>
+                                            </div>
+                                            <div class="text-block__bg-info-block">
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        01. Optimizing ROI
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Allocate resources judiciously for maximum return on
+                                                            investment.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        02. Enhancing Targeting Precision
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Refine targeting strategies based on customer behaviors and
+                                                            preferences.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        03. Refining Campaign Effectiveness
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Identify and improve high-performing strategies while
+                                                            retiring
+                                                            less successful ones.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        04. Guiding Strategic Decision-Making
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Make informed decisions aligned with business objectives and
+                                                            market dynamics.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        05. Adapting to Evolving Trends
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Stay attuned to changing consumer preferences for strategic
+                                                            adaptation.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__bg-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <div class="text-block__bg-info-title text-block__text-info">
+                                                        06. Fostering Accountability
+                                                    </div>
+                                                    <div class="text-block__bg-info-text text-block__text-info">
+                                                        <p>
+                                                            Demonstrate transparency and accountability, building trust
+                                                            with
+                                                            consumers.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="text-block__item text-block__item-scroll text-block__item_4"
+                                        data-scroll="scroll-4">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    How to Measure Marketing
+                                                </span>
+                                            </span>
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0.3s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0.3s; animation-name: fadeInUpTextContent;">
+                                                    Performance
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__text-info wow animate__animated"
+                                            style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                            <p>
+                                                Effectively measuring marketing performance for ecommerce brands
+                                                requires a strategic approach that includes clear objectives, pertinent
+                                                metrics, and adept use of analytics tools.
+                                            </p>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Setting Clear Objectives
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    To embark on a journey of meaningful measurement, start by
+                                                    establishing
+                                                    clear and measurable objectives for your marketing campaigns. These
+                                                    objectives should be specific and aligned with overall business
+                                                    goals.
+                                                    Whether it’s increasing website traffic, boosting conversions, or
+                                                    enhancing brand awareness, crystal-clear objectives lay the
+                                                    foundation
+                                                    for effective measurement.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Choosing Ecommerce Metrics
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Identifying the right metrics is crucial for gaining insights that
+                                                    matter in the ecommerce landscape. Focus on <a
+                                                        href="https://blog.hubspot.com/marketing/marketing-key-performance-indicators?__hstc=221183303.bbc2ee1aeedb5f45cc0965782f436727.1696936209143.1705335476800.1705346601548.52&__hssc=221183303.2.1705346601548&__hsfp=1351524771">key
+                                                        performance indicators</a>
+                                                    (KPIs) or metrics directly relevant to ecommerce success. These may
+                                                    include:
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-label wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Return on Investment (ROI)
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Return on investment (ROI) in marketing gauges the money gained
+                                                    compared
+                                                    to marketing costs. This is calculated by subtracting marketing
+                                                    expenses
+                                                    from sales growth and dividing by marketing cost. Your brand can
+                                                    adjust
+                                                    strategy once you recognize the challenge of directly attributing
+                                                    sales
+                                                    growth to a specific campaign.
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-label wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Return on Investment (ROI)
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    The conversion rate represents the percentage of visitors completing
+                                                    a
+                                                    desired action, such as filling out a form or making a purchase.
+                                                    Tracking this metric is crucial for evaluating lead attraction
+                                                    success.
+                                                    This enables businesses to identify areas for improvement and
+                                                    strategize
+                                                    accordingly.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__image-block wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <div class="text-block__image ibg">
+                                                    <img src="img/news-page/about/02.jpg" alt="news-page-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-label wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Customer Lifetime Value (CLV)
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    This metric guides strategic resource allocation, which fosters a
+                                                    customer-centric approach. It also serves as a benchmark for
+                                                    evaluating
+                                                    the effectiveness of marketing campaigns by considering the entire
+                                                    customer lifespan. Understanding CLV enables businesses to make
+                                                    informed
+                                                    decisions that extend beyond immediate gains, focusing on building
+                                                    lasting and profitable customer relationships.
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-label wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Customer Acquisition Cost (CAC)
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Customer acquisition cost (CAC) quantifies the expense of converting
+                                                    a
+                                                    lead into a customer. CAC aids in crucial budget decisions for
+                                                    effective
+                                                    marketing strategies. This metric guides businesses in determining
+                                                    optimal spending to attract customers, ensuring a balance between
+                                                    acquisition costs and profitability.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Utilizing Analytical Tools
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Ecommerce brands rely on a plethora of analytics tools to dissect
+                                                    and
+                                                    enhance their marketing performance. Here’s an overview of popular
+                                                    tools
+                                                    and tips for their effective utilization:
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    <a href="https://marketingplatform.google.com/about/analytics/">Google
+                                                        Analytics:</a> A robust and widely used tool, Google
+                                                    Analytics
+                                                    provides comprehensive insights into website traffic, user behavior,
+                                                    and
+                                                    conversion data. It allows ecommerce brands to track the performance
+                                                    of
+                                                    marketing channels and campaigns.
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    <a href="https://growify.ai/">Growify:</a> With advanced
+                                                    analytics features and a focus on ecommerce
+                                                    success, Growify provides a user-friendly interface for easy
+                                                    adoption.
+                                                    Its customizable dashboards, strategic decision support, and
+                                                    seamless
+                                                    integration capabilities make it an indispensable tool for ecommerce
+                                                    businesses aiming to measure and optimize marketing performance
+                                                    effectively.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__image-block wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <div class="text-block__image ibg">
+                                                    <img src="img/news-page/about/03.jpg" alt="news-page-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    <a href="">Buffer:</a> Buffer stands out as an effective
+                                                    analytical tool, streamlining
+                                                    social media analytics with a user-friendly interface and
+                                                    comprehensive
+                                                    reporting features. Its insights into scheduling posts and audience
+                                                    engagement make optimizing marketing performance on social media
+                                                    platforms indispensable.
+                                                </p>
+                                            </div>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    <a href="">Hotjar:</a> Specializing in visual analytics,
+                                                    Hotjar offers features like
+                                                    heatmaps and session recordings, aiding ecommerce brands in
+                                                    understanding user behavior, optimizing website design, and
+                                                    enhancing
+                                                    the overall user experience.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-block__item text-block__item-scroll text-block__item_5"
+                                        data-scroll="scroll-5">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    How to Evaluate Marketing Performance
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    To ensure the <a
+                                                        href="https://planful.com/blog/how-to-evaluate-the-effectiveness-of-your-marketing-plan/">efficacy
+                                                        of marketing strategies</a>, a systematic evaluation
+                                                    is paramount. Here are the key components for a comprehensive
+                                                    assessment:
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Regular Audits
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Regular audits are the backbone of assessing marketing performance.
+                                                    Conducting periodic reviews allows businesses to scrutinize
+                                                    campaigns,
+                                                    strategies, and key performance indicators (KPIs). Audits provide a
+                                                    real-time understanding of what’s working, what needs adjustment,
+                                                    and
+                                                    where opportunities for improvement lie. This continuous evaluation
+                                                    ensures that marketing efforts stay aligned with evolving business
+                                                    goals
+                                                    and market dynamics.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Comparative Analysis
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Effective evaluation involves more than just internal assessments;
+                                                    it
+                                                    necessitates comparative analysis. Comparing current performance
+                                                    against
+                                                    historical data offers insights into the trajectory of marketing
+                                                    endeavors. Additionally, benchmarking against industry standards
+                                                    provides context and reveals areas for potential growth. This
+                                                    holistic
+                                                    approach enables businesses to identify outliers, trends, and areas
+                                                    for
+                                                    optimization, fostering a data-driven culture that propels marketing
+                                                    strategies forward.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-block__item text-block__item-scroll text-block__item_6"
+                                        data-scroll="scroll-6">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    Selecting the Right Metrics for
+                                                </span>
+                                            </span>
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0.3s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0.3s; animation-name: fadeInUpTextContent;">
+                                                    Different Marketing Goals and
+                                                </span>
+                                            </span>
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0.6s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0.6s; animation-name: fadeInUpTextContent;">
+                                                    Strategies
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Crafting a tailored measurement approach is pivotal for diverse
+                                                    marketing goals. Check out the following tips to ensure you utilize
+                                                    the
+                                                    correct metrics for your campaign goals.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Brand Awareness Campaigns
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    For brand awareness initiatives, focus on metrics that gauge reach,
+                                                    visibility, and audience engagement. Key Performance Indicators
+                                                    (KPIs)
+                                                    may include impressions, social media reach, and brand mentions.
+                                                    Tracking these metrics provides a nuanced understanding of how well
+                                                    your
+                                                    brand resonates with the target audience.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__image-block wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <div class="text-block__image ibg">
+                                                    <img src="img/news-page/about/04.jpg" alt="news-page-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Conversion-Oriented Campaigns
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    When aiming for conversions, hone in on metrics directly tied to the
+                                                    conversion funnel. Metrics such as conversion rates, click-through
+                                                    rates
+                                                    (CTR), and cost per conversion are paramount. These indicators
+                                                    illuminate the efficiency of your campaigns in driving tangible
+                                                    actions,
+                                                    ensuring a clear line of sight to conversion success.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="text-block__item-small">
+                                            <h5 class="text-block__more-info  wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                Retargeting and Remarketing Strategies
+                                            </h5>
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    In retargeting efforts, prioritize metrics that measure
+                                                    re-engagement
+                                                    and conversion recovery. You can track metrics like click-through
+                                                    rates
+                                                    on retargeted ads, conversion rates of re-engaged visitors, and the
+                                                    cost
+                                                    per converted user. Implementing effective retargeting and
+                                                    remarketing
+                                                    strategies involves understanding how well you bring potential
+                                                    customers
+                                                    into the conversion loop.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-block__item text-block__item-scroll text-block__item_7"
+                                        data-scroll="scroll-7">
+                                        <h3 class="text-block__title">
+                                            <span class="text-inner wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                <span class="text-content wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                    Conclusion
+                                                </span>
+                                            </span>
+                                        </h3>
+                                        <div class="text-block__item-small">
+                                            <div class="text-block__text-info wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <p>
+                                                    Aligning marketing performance measurement with overall business
+                                                    objectives is paramount for sustained success. By adopting a
+                                                    proactive
+                                                    approach to regular audits, comparative analysis, and selecting
+                                                    metrics
+                                                    tailored to specific campaign goals, businesses can fine-tune their
+                                                    strategies for optimal results. Encouraging businesses to embrace
+                                                    these
+                                                    strategies fosters a dynamic, data-driven culture, ensuring
+                                                    continuous
+                                                    improvement and heightened effectiveness in their marketing
+                                                    endeavors.
+                                                </p>
+                                                <p>
+                                                    If you want to elevate your journey further, check out <a
+                                                        href="https://www.adspaceagency.com/">Adspace</a> – a
+                                                    leading full-service digital marketing company dedicated to
+                                                    maximizing
+                                                    your success. Our comprehensive solutions go beyond boundaries,
+                                                    empowering you to reach marketing goals with unmatched precision and
+                                                    efficiency. From targeted audience engagement to optimized ad
+                                                    strategies, Adspace is your partner for redefining success in the
+                                                    digital landscape. Explore the full spectrum of our services today
+                                                    and
+                                                    revolutionize your approach to marketing triumph.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-block__item text-block__item_bottom">
+                                    <div class="text-block__content content-text-block">
+                                        <div class="content-text-block__row">
+                                            <div class="content-text-block__image-block wow animate__animated"
+                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                <div class="content-text-block__image ibg">
+                                                    <img src="img/news-page/about/05.jpg" alt="Skylar Schmidt">
+                                                </div>
+                                            </div>
+                                            <div class="content-text-block__body">
+                                                <div class="content-text-block__top">
+                                                    <div class="content-text-block__title-block">
+                                                        <h5 class="text-block__more-info  wow animate__animated"
+                                                            style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                            Skylar Schmidt
+                                                        </h5>
+                                                    </div>
+                                                    <div class="content-text-block__label text wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                        Author
+                                                    </div>
+                                                    <div class="text-block__text-info wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                        <p>
+                                                            Skylar is a Content Marketing Specialist at Siege. She has a
+                                                            passion for creating creative content that ranks and helps
+                                                            clients grow. When she's not writing or collecting data for
+                                                            studies, she's most likely listening to her vinyl collection
+                                                            and whipping up a new dessert in her kitchen.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="content-text-block__bottom">
+                                                    <a href="" class="content-text-block__link-icon icon-link"
+                                                        data-da="content-text-block__title-block, 1, 1150">
+                                                        <span class="icon-link__inner">
+                                                            <span class="icon-link__content">
+                                                                <svg>
+                                                                    <use xlink:href="#linkedin"></use>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="icon-link__content">
+                                                                <svg>
+                                                                    <use xlink:href="#linkedin"></use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -593,7 +1310,205 @@
                     </div>
                 </div>
             </section>
-            <section class="news__popular news-block block bg-white" data-bg="white-bg">
+            <section class="news-page__download download-news-page block" data-bg="purple-bg">
+                <div class="download-news-page__row">
+                    <div class="download-news-page__content">
+                        <h3 class="download-news-page__title">
+                            <span class="text-inner wow animate__animated"
+                                style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                <span class="text-content wow animate__animated"
+                                    style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                    Download our free guide
+                                </span>
+                            </span>
+                            <span class="text-inner wow animate__animated"
+                                style="animation-delay: 0.3s; animation-name: fadeInUpTextInner;">
+                                <span class="text-content wow animate__animated"
+                                    style="animation-delay: 0.3s; animation-name: fadeInUpTextContent;">
+                                    to learn how to measure
+                                </span>
+                            </span>
+                            <span class="text-inner wow animate__animated"
+                                style="animation-delay: 0.6s; animation-name: fadeInUpTextInner;">
+                                <span class="text-content wow animate__animated"
+                                    style="animation-delay: 0.6s; animation-name: fadeInUpTextContent;">
+                                    SEO ROI through
+                                </span>
+                            </span>
+                            <span class="text-inner wow animate__animated"
+                                style="animation-delay: 0.9s; animation-name: fadeInUpTextInner;">
+                                <span class="text-content wow animate__animated"
+                                    style="animation-delay: 0.9s; animation-name: fadeInUpTextContent;">
+                                    content marketing
+                                </span>
+                            </span>
+                        </h3>
+                        <a href="" class="download-news-page__btn btn btn_white-purple wow animate__animated"
+                            style="animation-delay: 1.2s; animation-name: fadeInUpBlock;">
+                            <span class="btn__inner">
+                                <span class="btn__content">
+                                    <span class="btn__text">Download</span>
+                                </span>
+                                <span class="btn__content">
+                                    <span class="btn__text">Download</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="download-news-page__image-block wow animate__animated"
+                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                        <div class="download-news-page__image ibg">
+                            <img src="img/news-page/download-img.jpg" alt="download-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news-page__recipes recipes-news-page block" data-bg="white-bg">
+                <div class="recipes-news-page__container container">
+                    <div class="recipes-news-page__body">
+                        <div class="recipes-news-page__top">
+                            <h3 class="recipes-news-page__title">
+                                <span class="text-inner wow animate__animated"
+                                    style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                    <span class="text-content wow animate__animated"
+                                        style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                        Secret recipes sold here
+                                    </span>
+                                </span>
+                            </h3>
+                            <div class="recipes-news-page__navigation navigation-slider">
+                                <button
+                                    class="navigation-slider__btn navigation-slider__btn_prev recipes-news-page__btn-prev icon-link">
+                                    <span class="icon-link__inner">
+                                        <span class="icon-link__content">
+                                            <svg>
+                                                <use xlink:href="#arrow-link"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon-link__content">
+                                            <svg>
+                                                <use xlink:href="#arrow-link"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </button>
+                                <button
+                                    class="navigation-slider__btn navigation-slider__btn_next recipes-news-page__btn-next icon-link">
+                                    <span class="icon-link__inner">
+                                        <span class="icon-link__content">
+                                            <svg>
+                                                <use xlink:href="#arrow-link"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon-link__content">
+                                            <svg>
+                                                <use xlink:href="#arrow-link"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="recipes-news-page__slider">
+                            <div class="recipes-news-page__swiper swiper">
+                                <div class="recipes-news-page__wrapper swiper-wrapper">
+                                    <div class="recipes-news-page__slide slide-recipes-news-page swiper-slide wow animate__animated"
+                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                        <div class="slide-recipes-news-page__item item-recipes-news-page">
+                                            <h5 class="item-recipes-news-page__title">
+                                                Paid Media
+                                            </h5>
+                                            <div class="item-recipes-news-page__text text">
+                                                <p>
+                                                    Solve technical problems with senior teams and bottom-line emphasis.
+                                                </p>
+                                            </div>
+                                            <a href="" class="item-recipes-news-page__btn btn btn_arrow btn_black">
+                                                <span class="btn__inner">
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">Learn more</span>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="recipes-news-page__slide slide-recipes-news-page swiper-slide wow animate__animated"
+                                        style="animation-delay: 0.1s; animation-name: fadeInUpBlock;">
+                                        <div class="slide-recipes-news-page__item item-recipes-news-page">
+                                            <h5 class="item-recipes-news-page__title">
+                                                Convertional Rate Optimisation
+                                            </h5>
+                                            <div class="item-recipes-news-page__text text">
+                                                <p>
+                                                    Solve technical problems with senior teams and bottom-line emphasis.
+                                                </p>
+                                            </div>
+                                            <a href="" class="item-recipes-news-page__btn btn btn_arrow btn_black">
+                                                <span class="btn__inner">
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">Learn more</span>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="recipes-news-page__slide slide-recipes-news-page swiper-slide wow animate__animated"
+                                        style="animation-delay: 0.2s; animation-name: fadeInUpBlock;">
+                                        <div class="slide-recipes-news-page__item item-recipes-news-page">
+                                            <h5 class="item-recipes-news-page__title">
+                                                E-mail Marketing
+                                            </h5>
+                                            <div class="item-recipes-news-page__text text">
+                                                <p>
+                                                    Solve technical problems with senior teams and bottom-line emphasis.
+                                                </p>
+                                            </div>
+                                            <a href="" class="item-recipes-news-page__btn btn btn_arrow btn_black">
+                                                <span class="btn__inner">
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">Learn more</span>
+                                                    </span>
+                                                    <span class="btn__content">
+                                                        <svg>
+                                                            <use xlink:href="#arrow-link"></use>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news-page__related news-block block" data-bg="white-bg">
                 <div class="news-block__container container">
                     <div class="news-block__slider slider">
                         <div class="slider__top">
@@ -602,7 +1517,7 @@
                                     style="animation-name: fadeInUpTextInner;">
                                     <span class="text-content wow animate__animated"
                                         style="animation-name: fadeInUpTextContent;">
-                                        Most popular
+                                        Related Articles
                                     </span>
                                 </span>
                             </h2>
@@ -836,657 +1751,7 @@
                     </div>
                 </div>
             </section>
-            <section class="news__all-articles all-articles block" data-bg="white-bg">
-                <div class="all-articles__container container">
-                    <div class="all-articles__body">
-                        <h2 class="all-articles__title">
-                            <span class="text-inner wow animate__animated" style="animation-name: fadeInUpTextInner;">
-                                <span class="text-content wow animate__animated"
-                                    style="animation-name: fadeInUpTextContent;">
-                                    Most popular
-                                </span>
-                            </span>
-                        </h2>
-                        <div class="all-articles__row">
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Search Engine Optimization" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Search Engine Optimization
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/01.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Revolutionizing Audience Engagement: Unveiling the Power of OTT Advertising
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Content & Creative" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Content & Creative
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/02.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            OTT Advertising: A Game-Changer in Targeted Audience Reach and Impact
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Web Design & Development all" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Web Design & Development all
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/03.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Navigating the Future: How OTT Advertising Enhances Audience Engagement
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/04.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Precision Marketing Unleashed: Maximizing Audience Engagement with OTT
-                                            Advertising
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/05.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Beyond Traditional Channels: The Transformative Role of OTT in Audience
-                                            Connection
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/06.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Unlocking the Potential: The Strategic Advantages of OTT Advertising
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Web Design & Development all" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Web Design & Development all
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/07.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            A Deep Dive into Meta Campaign Objectives and Best Practices for Facebook
-                                            Ads
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/08.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Exploring the Benefits of OTT Advertising for Targeted Audience Engagement
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Search Engine Optimization" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Search Engine Optimization
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/09.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Innovative Outreach: Exploring the Untapped Potential of OTT for Audiences
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/10.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            A Deep Dive into Meta Campaign Objectives and Best Practices for Facebook
-                                            Ads
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Digital Advertising" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Digital Advertising
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/11.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            The ultimate guide to Facebook ads for ecommerce brands 2024
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Content & Creative" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Content & Creative
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/12.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Exploring the Benefits of OTT Advertising for Targeted Audience Engagement
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/13.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            How to Craft a Robust Facebook Ad Campaign & Strategy
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/14.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            The ultimate guide to Facebook ads for ecommerce brands 2024
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Marketing Strategy" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Marketing Strategy
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/15.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Exploring the Benefits of OTT Advertising for Targeted Audience Engagement
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Search Engine Optimization" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Search Engine Optimization
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/16.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Unraveling the Marketing Dilemma: Facebook Ads vs. Google Ads
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Search Engine Optimization" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Search Engine Optimization
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/17.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Exploring the Benefits of OTT Advertising for Targeted Audience Engagement
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="all-articles__column filter-column wow animate__animated"
-                                data-filter="Search Engine Optimization" style="animation-name: fadeInUpBlock;">
-                                <a href="" class="all-articles__item item-card">
-                                    <div class="item-card__image-block">
-                                        <span class="item-card__label label-item-card">
-                                            <span class="label-item-card__text">
-                                                Web Design & Development all
-                                            </span>
-                                        </span>
-                                        <div class="item-card__image ibg">
-                                            <img src="img/news/all-articles/18.jpg" alt="articles-img">
-                                        </div>
-                                        <span class="item-card__link icon-link">
-                                            <span class="icon-link__inner">
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                                <span class="icon-link__content">
-                                                    <svg>
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class="item-card__content">
-                                        <h6 class="item-card__title">
-                                            Is Facebook Ads Worth It? Decoding the Value of Facebook Ads
-                                        </h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="all-articles__bottom">
-                            <a href="" class="all-articles__btn btn btn_black btn_more">
-                                <span class="btn__inner">
-                                    <span class="btn__content">
-                                        <svg>
-                                            <use xlink:href="#more"></use>
-                                        </svg>
-                                        <span class="btn__text">View more</span>
-                                    </span>
-                                    <span class="btn__content">
-                                        <svg>
-                                            <use xlink:href="#more"></use>
-                                        </svg>
-                                        <span class="btn__text">View more</span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="news__contact contact-block block" data-bg="purple-bg">
+            <section class="news-page__contact contact-block block bg-white" data-bg="purple-bg">
                 <div class="contact-block__container container">
                     <div class="contact-block__body">
                         <h2 class="contact-block__title">
