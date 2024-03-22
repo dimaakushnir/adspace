@@ -5721,6 +5721,9 @@ h6 {
 .service__faqs:not(:last-child) {
   margin: 0 0 10px 0;
 }
+.service__contact {
+  margin: 0 0 10px 0;
+}
 
 .main-service {
   padding: 160px 0 0 0;
@@ -11725,7 +11728,7 @@ h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
   .item-press-about__text {
     font-size: 24px;
   }
