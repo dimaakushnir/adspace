@@ -2420,7 +2420,7 @@ h6 {
   font-weight: 600;
 }
 .text-block__bg-info-title:not(:last-child) {
-  margin: 0 0 8px 0;
+  margin: 0 0 8px 0 !important;
 }
 .text-block__image-block {
   position: relative;
@@ -7147,6 +7147,15 @@ h6 {
 .top-item-faqs-service__icon .icon-link__content:last-child svg {
   stroke: #FFFFFF;
 }
+@media (min-width: 991.98px) {
+  .top-item-faqs-service__icon .icon-link__content:last-child svg {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+}
 
 .contact__main:not(:last-child) {
   margin: 0 0 10px 0;
@@ -7519,6 +7528,15 @@ h6 {
 }
 .top-item-faqs-contact__icon .icon-link__content:last-child svg {
   stroke: #FFFFFF;
+}
+@media (min-width: 991.98px) {
+  .top-item-faqs-contact__icon .icon-link__content:last-child svg {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
 }
 
 .join-contact__row {
@@ -10419,6 +10437,31 @@ h6 {
 .top-main-about__title:not(:last-child) {
   margin: 0 0 16px 0;
 }
+@media (max-width: 767.98px) {
+  .top-main-about__title {
+    text-align: left;
+  }
+}
+@media (max-width: 400px) {
+  .top-main-about__title {
+    display: none;
+  }
+}
+.top-main-about__title-small {
+  color: #FFFFFF;
+  text-align: left;
+}
+@media (min-width: 400px) {
+  .top-main-about__title-small {
+    display: none;
+  }
+}
+.top-main-about__title-small .text-inner {
+  padding: 0 5px 0 0;
+}
+.top-main-about__title-small:not(:last-child) {
+  margin: 0 0 16px 0;
+}
 
 .quetos-block-about {
   border-radius: 28px;
@@ -12816,11 +12859,15 @@ h6 {
 }
 .top-item-capabilities-about__icon .icon-link__content:last-child svg {
   stroke: #FFFFFF;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -ms-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+}
+@media (min-width: 991.98px) {
+  .top-item-capabilities-about__icon .icon-link__content:last-child svg {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
 }
 
 .home__brands {

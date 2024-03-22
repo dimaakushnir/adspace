@@ -616,15 +616,17 @@
                                     <div class="text-block__item scrolling-block">
                                         <div class="text-block__item text-block__item-scroll text-block__item_1"
                                             data-scroll="scroll-1">
-                                            <h3 class="text-block__title">
-                                                <span class="text-inner wow animate__animated"
-                                                    style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
-                                                    <span class="text-content wow animate__animated"
-                                                        style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
-                                                        Interpretation and Definitions
+                                            <div class="text-block__item-small">
+                                                <h3 class="text-block__title">
+                                                    <span class="text-inner wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpTextInner;">
+                                                        <span class="text-content wow animate__animated"
+                                                            style="animation-delay: 0s; animation-name: fadeInUpTextContent;">
+                                                            Interpretation and Definitions
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            </h3>
+                                                </h3>
+                                            </div>
                                             <div class="text-block__item-small">
                                                 <h5 class="text-block__more-info wow animate__animated"
                                                     style="animation-delay: 0s; animation-name: fadeInUpBlock;">
@@ -815,11 +817,13 @@
                                                     </span>
                                                 </span>
                                             </h3>
-                                            <div class="text-block__text-info wow animate__animated"
-                                                style="animation-delay: 0s; animation-name: fadeInUpBlock;">
-                                                <p>
-                                                    Types of Data Collected:
-                                                </p>
+                                            <div class="text-block__item-small">
+                                                <div class="text-block__text-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <p>
+                                                        Types of Data Collected:
+                                                    </p>
+                                                </div>
                                             </div>
                                             <div class="text-block__item-small">
                                                 <h5 class="text-block__more-info wow animate__animated"
@@ -1024,6 +1028,60 @@
                                                         We use both Session and Persistent Cookies for the purposes set
                                                         out
                                                         below:
+                                                    </p>
+                                                </div>
+                                                <div class="text-block__bg-info-block">
+                                                    <div class="text-block__bg-info wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                        <div class="text-block__bg-info-title text-block__text-info">
+                                                            01. Necessary / Essential Cookies
+                                                        </div>
+                                                        <div class="text-block__bg-info-text text-block__text-info">
+                                                            <p>
+                                                                Type: Session cookies<br>
+                                                                Administered by: Us<br>
+                                                                Purpose: These cookies are essential to provide you with
+                                                                services available through the website and to enable you
+                                                                to use some of its features. They help to authenticate
+                                                                users and prevent fraudulent use of user accounts.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-block__bg-info wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                        <div class="text-block__bg-info-title text-block__text-info">
+                                                            02. Cookies Policy / Notice Acceptance Cookies
+                                                        </div>
+                                                        <div class="text-block__bg-info-text text-block__text-info">
+                                                            <p>
+                                                                Type: Persistent cookies<br>
+                                                                Administered by: Us<br>
+                                                                Purpose: These cookies identify if users have accepted
+                                                                the use of cookies on the website.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-block__bg-info wow animate__animated"
+                                                        style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                        <div class="text-block__bg-info-title text-block__text-info">
+                                                            03. Functionality Cookies
+                                                        </div>
+                                                        <div class="text-block__bg-info-text text-block__text-info">
+                                                            <p>
+                                                                Type: Persistent cookies<br>
+                                                                Administered by: Us<br>
+                                                                Purpose: These cookies identify if users have accepted
+                                                                the use of cookies on the website.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-block__text-info wow animate__animated"
+                                                    style="animation-delay: 0s; animation-name: fadeInUpBlock;">
+                                                    <p>
+                                                        For more information about the cookies we use and your choices
+                                                        regarding cookies, please visit our Cookies Policy or the
+                                                        Cookies section of our Privacy Policy.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1589,7 +1647,7 @@
                                         <div class="form-contact-block__item form-item">
                                             <input autocomplete='off' type='text' name='form[]'
                                                 class='form-contact-block__input form-input required'>
-                                            <label class="form-contact-block__label form-label">First Name</label>
+                                            <label class="form-contact-block__label form-label">First Name*</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
                                                 <span class="icon-link__inner">
                                                     <span class="icon-link__content">
@@ -1613,7 +1671,7 @@
                                         <div class="form-contact-block__item form-item">
                                             <input autocomplete='off' type='text' name='form[]'
                                                 class='form-contact-block__input form-input required'>
-                                            <label class="form-contact-block__label form-label">First Name</label>
+                                            <label class="form-contact-block__label form-label">Last name*</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
                                                 <span class="icon-link__inner">
                                                     <span class="icon-link__content">
@@ -1637,7 +1695,7 @@
                                         <div class="form-contact-block__item form-item">
                                             <input autocomplete='off' type='email' name='form[]'
                                                 class='form-contact-block__input form-input email required'>
-                                            <label class="form-contact-block__label form-label">Email</label>
+                                            <label class="form-contact-block__label form-label">Email*</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
                                                 <span class="icon-link__inner">
                                                     <span class="icon-link__content">
@@ -1661,7 +1719,7 @@
                                         <div class="form-contact-block__item form-item form-item_phone">
                                             <input autocomplete='off' type='tel' name='form[]'
                                                 class='form-contact-block__input form-input form-input__phone phone required'>
-                                            <label class="form-contact-block__label form-label">Phone number</label>
+                                            <label class="form-contact-block__label form-label">Phone number*</label>
                                             <span class="form-contact-block__icon form-icon icon-link">
                                                 <span class="icon-link__inner">
                                                     <span class="icon-link__content">
